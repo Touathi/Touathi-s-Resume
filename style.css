@@ -3,32 +3,81 @@ body {
   color: 	#000000	;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 10%;
+  border: 3px solid;
 }
 
 .header{
   text-align: center;
+  border-bottom: 3px solid;
 }
 
-.Knowledge{
+.titleobj{
+  text-decoration: underline;
   text-align: center;
-  text-transform: uppercase;
-  border-top: 3px solid #000000;
-  border-bottom: 3px solid #000000;
-  background-color: rgba(0,0,0,.2)
+  
 }
 
-.Work{
+.titleskill{
+  text-decoration: underline;
   text-align: center;
-  text-transform: uppercase;
-  border-top: 3px solid #000000;
-  border-bottom: 3px solid #000000;
-  background-color: rgba(0,0,0,.2)
 }
 
-.Education{
+.titlework{
+  text-decoration: underline;
   text-align: center;
-  text-transform: uppercase;
-  border-top: 3px solid #000000;
-  border-bottom: 3px solid #000000;
-  background-color: rgba(0,0,0,.2)
+  
+}
+
+.titleedu{
+  text-decoration: underline;
+  text-align: center;
+}
+
+.objective{
+  text-align: center;
+}
+
+.skill{
+  float: right;
+  width: 30%;
+  text-align: left;
+  border-top: 3px solid;
+  height: 280px;
+}
+
+
+.edu{
+  text-align: center;
+  border-top: 3px solid;
+  list-style: inside;
+}
+
+.cpp{
+  text-align: center;
+  width: 100%;
+  padding: px;
+}
+
+.job1{
+  text-align: left;
+}
+
+.job2{
+  text-align: left;
+  word-wrap: break-word;
+  width: 99%;
+  padding: 22px
+}
+
+.geo{
+  text-align: center;
+  width: 100%;
+  
+  
+}
+
+.work{
+  border-right: 3px solid;
+  border-top: 3px solid;
+  width: 70%;
 }
